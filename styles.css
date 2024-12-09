@@ -102,22 +102,29 @@ header nav ul li a
 /* IMAGEM PRINCIPAL */
 
 #main-image {
-    background: url('images/main.jpg') center no-repeat;
-    background-size: cover;  /* A imagem se ajusta ao tamanho do elemento, sem repetição */
-    height: 580px;
+    position: relative;
+    background: url("images/main.jpg") no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove padding */
 }
 
 #main-image h2
 {
+    font-size: 4vh;
     font-weight: normal;
     text-transform: uppercase;
     text-align: center;
-    padding: 150px 0 40px 0;
+    padding: 155px 0 40px 0;
     margin-bottom: 10px;
 }
 #main-image h3
 {
     color:#c9c9c9;
+    font-size: 3vh;
     font-style: italic;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -209,6 +216,7 @@ figcaption {
 
 #portifolio
 {
+    width: 100vw;
     background-color: #efefef;
     padding:  60px 0;
 }
