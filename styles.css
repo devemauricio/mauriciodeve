@@ -218,7 +218,13 @@ figcaption {
 {
     width: 100vw;
     background-color: #efefef;
-    padding:  60px 0;
+    padding:  10px 0;
+}
+#portifolio h3
+{
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 #videos {
     display: flex;
